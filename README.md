@@ -54,9 +54,9 @@ npm start
 
 The snippits below show how to use Postman to run get request. (Make sure to look at the unnderlined area you need to fill out)
 
-![This is an image](node-rest-api-challenge-master/postmanAuthTokenEx.png)
+![This is an image](postmanAuthTokenEx.png)
 
-![This is an image](node-rest-api-challenge-master/postmanEndpointEx.png)
+![This is an image](postmanEndpointEx.png)
 
 
 ```
