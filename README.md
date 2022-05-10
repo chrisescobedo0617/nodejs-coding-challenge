@@ -48,6 +48,19 @@ npm start
 
 ```
 
+## Using Postman To Easily Test Api
+
+####If you don't already have Postman installed go ahead and install it from their offical website.
+
+The snippits below show how to use Postman to run get request. (Make sure to look at the unnderlined area you need to fill out)
+
+![This is an image](node-rest-api-challenge-master/postmanAuthTokenEx.png)
+
+![This is an image](node-rest-api-challenge-master/postmanEndpointEx.png)
+
+
+```
+
 ## Usage
 
 There are 3 endpoints:
