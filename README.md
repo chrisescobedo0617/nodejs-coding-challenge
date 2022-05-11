@@ -111,7 +111,7 @@ In the above curl call the station_id provided is 5, the endpoint will return wi
 
 ```
 
-#### trips:
+#### riders:
 
 Given one or more stations, return the number of riders in the following age groups,
 [0-20,21-30,31-40,41-50,51+, unknown], who ended their trip at that station for a given
@@ -119,7 +119,7 @@ day.
 
 ```
 curl -X GET \
-  'http://localhost:3000/trips?stations=89%2C90%2C91%2C92%2C93%2C94&date=4%2F3%2F2019' \
+  'http://localhost:3000/riders?stations=89%2C90%2C91%2C92%2C93%2C94&date=4%2F3%2F2019' \
   -H 'authorization: jjn1qwgxgca3mwr839nx' \
   
 ```
@@ -140,7 +140,7 @@ In the above curl call the query string contains station_ids provided comma sepa
 }
 
 ```
-#### riders:
+#### trips:
 
 This endpoint given one or more stations, return the last 20 trips that ended at each station for a single day(given day)
 
